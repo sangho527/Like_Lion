@@ -37,7 +37,7 @@
 }*/
 
 
-import java.util.InputMismatchException;
+/* import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class practice2{
@@ -58,5 +58,17 @@ public class practice2{
             System.out.println("무조건 실행");
         }
         System.out.println("Good bye~~!");
+    }
+}
+ */
+
+public class practice2 {
+    public static void main(String[] args) {
+
+        String[] tokens = "I am a boy".split(" ");
+
+        for (String token : tokens) {
+            System.out.println(token);
+        }
     }
 }
