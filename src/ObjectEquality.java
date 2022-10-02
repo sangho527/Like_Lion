@@ -29,12 +29,12 @@ public class ObjectEquality {
         INum num2 = new INum(12);
         INum num3 = new INum(10);
 
-        if(num1.equals(num2))
+        if(num1.equals(num2)) //equals를 사용해서 num1 과 num2 비교
             System.out.println("num1, num2 내용 동일하다.");
         else
             System.out.println("num1, num2 내용 다르다.");
 
-        if(num1.equals(num3))
+        if(num1.equals(num3)) //equals를 사용해서 num1 과 num3 비교
             System.out.println("num1, num3 내용 동일하다.");
         else
             System.out.println("num1, num3 내용 다르다.");
